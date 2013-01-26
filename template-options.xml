@@ -12,7 +12,7 @@
     <field name="master" type="hidden" value="false" default="true"/>
     <field name="current_id" type="hidden" value="false" default="true"/>
     <field name="gantry" type="gantry" value="" panel_position="hiddens"/>
-    <field name="template_full_name" type="hidden" default="Gantry"/>
+    <field name="template_full_name" type="hidden" default="Portland Natural Birth"/>
     <field name="grid_system" type="hidden" default="12"/>
     <field name="template_prefix" type="hidden" default="gantry-"/>
     <field name="cookie_time" type="hidden" default="31536000"/>
