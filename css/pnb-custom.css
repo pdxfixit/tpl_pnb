@@ -1,9 +1,51 @@
-/*
-    Document   : pnb-custom
-    Created on : Dec 4, 2012, 9:59:26 PM
-    Author     : Ben Sandberg
-    Description:
-        Custom styling for the Portland Natural Birth Joomla! Template.
-*/
+/* Portland Natural Birth */
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:400,600);
 
+/* Logo */
+#rt-logo {
+    margin: 0 auto;
+}
 
+/* Transition */
+header#rt-top-surround {
+    border-bottom: #b20839 15px solid;
+    padding-bottom: 1px;
+}
+
+/* Menu */
+div.rt-block.menu-block > ul.gf-menu {
+    display: table !important;
+}
+
+div.rt-block.menu-block > ul.gf-menu > li {
+    display: table-cell;
+    margin: 0;
+}
+
+ul.gf-menu a.item {
+    text-align: center;
+}
+
+div.rt-block.menu-block > ul.gf-menu > li > a.item {
+    padding: 0.25em 2.25em;
+}
+
+body.font-family-josefin-slab div.menu-block > ul.gf-menu a.item {
+    font-family: 'Josefin Slab', serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+body.font-family-josefin-slab div.rt-block.menu-block > ul.gf-menu > li > a.item {
+    font-size: 20px;
+}
+
+/* Miscellaneous */
+td.label {
+    background-color: transparent;
+}
+
+td.label > label {
+    color: #111111;
+}

@@ -24,7 +24,7 @@
     <field name="copy_lang_files_if_diff" type="hidden" default="1"/>
 
     <fields name="logo" type="selectedset" label="LOGO" description="LOGO_DESC">
-            <field name="enabled" type="toggle" default="1" label="SHOW" />
+            <field name="enabled" type="toggle" default="0" label="SHOW" />
             <field name="position" type="position" translation="false" default="header-a" label="POSITION" />
             <field name="type" type="selectbox" selector="true" default="gantry" label="TYPE" isbodyclass="true" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
             <fields type="set" name="gantry" label="Gantry Template">
@@ -39,7 +39,7 @@
         <option value="light">LIGHT</option>
     </field>
 
-     <field name="linkcolor" type="colorchooser" default="#2698de" label="LINK_COLOR" description="LINK_COLOR_DESC" setinsession="true"
+     <field name="linkcolor" type="colorchooser" default="#b20839" label="LINK_COLOR" description="LINK_COLOR_DESC" setinsession="true"
          setbysession="true" setincookie="true" setbycookie="true"/>
 
         <fields name="font" type="chain" label="FONT_SETTINGS" description="FONT_SETTINGS_DESC">
@@ -111,7 +111,7 @@
         </fields>
 
         <fields name="branding" type="chain" label="BRANDING" description="BRANDING_DESC">
-            <field name="enabled" type="toggle" default="1" label="SHOW" />
+            <field name="enabled" type="toggle" default="0" label="SHOW" />
             <field name="position" type="position" default="copyright-a" label="POSITION" />
         </fields>
 
@@ -139,8 +139,8 @@
         </fields>
 
         <fields name="analytics" type="chain" label="ANALYTICS" description="ANALYTICS_DESC">
-            <field name="enabled" type="toggle" default="0" label="ANALYTICS_ENABLE"/>
-            <field name="code" type="text" default="" label="ANALYTICS_CODE" class="text-long"/>
+            <field name="enabled" type="toggle" default="1" label="ANALYTICS_ENABLE"/>
+            <field name="code" type="text" default="UA-27359905-1" label="ANALYTICS_CODE" class="text-long"/>
             <field name="position" type="hidden" default="analytics" />
         </fields>
     </fieldset>
